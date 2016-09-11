@@ -15,6 +15,9 @@
 :not(.tx-black) {
     color: white;
 }
+.tx-orange{
+	color:rgb(232, 123, 53);
+}
 /*background images*/
 .bgimg-1{
  	background-image: url("../img/bgimg-1.jpg");
@@ -56,4 +59,35 @@ hr{
 	width:7%;
 	color:white;
 }
+/*button*/
+.buttonblack{
+	background-color: rgb(62,68,62); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover {
+	background-color: #e7e7e7;
+}
+/*img team*/
+.jane{
+	height:50%;
+	width: 50%;
+}
+/*tamaño de los inputs/form*/
+.input, textarea{
+	width:40% !important; 
+	font-size:100%;
+	margin-bottom:2%;
+}
+/*altura del textarea*/
+textarea{
+	height:30%;
+}
+
 
