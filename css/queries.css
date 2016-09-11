@@ -1,4 +1,9 @@
 @media screen and (max-width: 768px){
+	.bgimg-1{
+	padding-top:0%;
+	padding-bottom: 10%;
+	font-size:50%;
+	}
 	.mg-top15{
 	margin-top:20%;
 }
@@ -9,10 +14,10 @@
 	margin-top:20%;
 }
 	.mg-top4{
-	margin-top: 2%;
+	margin-top: 10%;
 }
 	.mg-bottom4{
-	margin-bottom: 2%;
+	margin-bottom: 10%;
 }
 	hr{
 	width:7%;
@@ -40,7 +45,7 @@
 }
 /*tamaño de los inputs/form*/
 	.input, textarea{
-	width:40% !important; 
+	width:60% !important; 
 	font-size:100%;
 	margin-bottom:2%;
 }
