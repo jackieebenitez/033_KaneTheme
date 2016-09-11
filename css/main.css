@@ -57,9 +57,6 @@
 .mg-bottom15{
 	margin-bottom:15%;
 }
-.mg-top20{
-	margin-top:20%;
-}
 .mg-top4{
 	margin-top: 4%;
 }
@@ -101,5 +98,87 @@ button:hover {
 textarea{
 	height:30%;
 }
-
+/*color palette 1*/
+.cp-height{
+	height:100px;
+}
+.cp1-1{
+	background-color:#5080bc;
+}
+.cp1-2{
+	background-color:#7298bc;
+}
+.cp1-3{
+	background-color:#fe6fbc;
+}
+.cp1-4{
+	background-color:#fab8dc;
+}
+.cp1-5{
+	background-color:#a50303;
+}
+/*color palette 2*/
+.cp2-1{
+	background-color:#6ca510;
+}
+.cp2-2{
+	background-color:#bdec29;
+}
+.cp2-3{
+	background-color:#165a35;
+}
+.cp2-4{
+	background-color:#158364;
+}
+.cp2-5{
+	background-color:#071a0a;
+}
+/*color palette 3*/
+.cp3-1{
+	background-color:#ffcc10;
+}
+.cp3-2{
+	background-color:#6cb5f0;
+}
+.cp3-3{
+	background-color:#f6246c;
+}
+.cp3-4{
+	background-color:#c2f273;
+}
+.cp3-5{
+	background-color:#f6745e;
+}
+/*color palette 4*/
+.cp4-1{
+	background-color:#ff9c55;
+}
+.cp4-2{
+	background-color:#ff6057;
+}
+.cp4-3{
+	background-color:#ffbfbc;
+}
+.cp4-4{
+	background-color:#ffe0de;
+}
+.cp4-5{
+	background-color:#50919a;
+}
+/*color palette 5*/
+.cp5-1{
+	background-color:#4b385a;
+}
+.cp5-2{
+	background-color:#6b425c;
+}
+.cp5-3{
+	background-color:#855463;
+}
+.cp5-4{
+	background-color:#b07e6e;
+}
+.cp5-5{
+	background-color:#e1d2bc;
+}
 

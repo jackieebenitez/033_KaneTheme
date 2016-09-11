@@ -8,44 +8,47 @@
     <meta name="author" content="Fabian Bentz Webdesign">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,400italic,700' rel='stylesheet' type='text/css'>
   </head>
 <body>
-    <header class="bg-green"> <!--inicia logo+menú-->
-        <div class="row">
-            <nav class="navbar navbar-fixed-top bg-green">
-                <div class="container navwhite">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed mg-top4" id="menu" data-toggle="collapse" data-target="#navbar-1">
-                            <span class="sr-only">Menú</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+    <header> <!--inicia logo+menú-->
+        <div class="row bg-green">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="col-xs-8 col-md-3 col-lg-3 mg-top4">
+                        <a href="#"><img class="" src="img/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="col-xs-4 col-md-9 col-lg-9 mg-top4">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1"> <!--la hamburguesa no se puso blanca y no se ve pero si está y despliega el menú-->
+                           <span class="sr-only">Menu</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
                         </button>
-                        <img src="img/logo.png" alt="logo" class="mg-top15 mg-bottom15">
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbar-1">
-                        <ul class="list-unstyled list-inline pull-right mg-bottom4 mg-top4">
-                            <li><a href="#about">About</li>
-                            <li><a href="#services">Service</li>
-                            <li><a href="#team">Team</li>
-                            <li><a href="#price">Price</li>
-                            <li><a href="#clients">Clients</li>
-                            <li><a href="#facts">Facts</li>
-                            <li><a href="#contact">Contact</li>
-                        </ul>
-                    </div>
+                        <div class="collapse navbar-collapse pull-right" id="navbar-1">
+                           <ul class="nav navbar-nav">
+                              <li><a href="#about">About</a></li>
+                              <li><a href="#service">Service</a></li>
+                              <li><a href="#team">Team</a></li>
+                              <li><a href="#price">Price</a></li>
+                              <li><a href="#clients">Clients</a></li>
+                              <li><a href="#facts">Facts</a></li>
+                              <li><a href="#contact">Contact</a></li>
+                           </ul>
+                        </div>
+                    </div> 
                 </div>
             </nav>
-        </div>
+        </div>  
     </header> <!--termina logo+menú-->
     <section> <!--inicia seccion bgimg-->
         <div class="container-fluid bgimg-1"> <!--aqui se va a poner bg-img-->
             <div class="row"> 
-                <div class="col-lg-12 text-center">
-                    <h1 class="mg-top20 fa-4x">Beautiful color palettes for <br> your next web project</h1>
+                <div class="col-xs-12 col-md-12 col-lg-12 text-center">
+                    <h1 class="mg-top15 fa-4x">Beautiful color palettes for <br> your next web project</h1>
                     <p>Choosing the right color scheme is essential to your website´s success. Your layout and <br> other design choices - including font - chould be developed in concert with your color <br> scheme to ensure readability, cohesiveness and beauty in the final product. </p>
                 </div>
             </div>
@@ -60,43 +63,103 @@
                 </div>
             </div>
             <div class="row"> <!--color palette 1-->
-                <div class="col-lg-12">
-                        
+                <div class="col-lg-2 col-lg-offset-1 cp1-1 cp-height">
+                    <p>#000000</p>
                 </div>
-            </div>
+                <div class="col-lg-2 cp1-2 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp1-3 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp1-4 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp1-5 cp-height">
+                    <p>#000000</p>
+                </div>
+            </div> 
             <div class="row"> <!--color palette 2-->
-                <div class="col-lg-12">
-                        
+                <div class="col-lg-2 col-lg-offset-1 cp2-1 cp-height">
+                    <p>#000000</p>
                 </div>
-            </div>
+                <div class="col-lg-2 cp2-2 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp2-3 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp2-4 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp2-5 cp-height">
+                    <p>#000000</p>
+                </div>
+            </div> 
             <div class="row"> <!--color palette 3-->
-                <div class="col-lg-12">
-                        
+                <div class="col-lg-2 col-lg-offset-1 cp3-1 cp-height">
+                    <p>#000000</p>
                 </div>
-            </div>
+                <div class="col-lg-2 cp3-2 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp3-3 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp3-4 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp3-5 cp-height">
+                    <p>#000000</p>
+                </div>
+            </div> 
             <div class="row"> <!--color palette 4-->
-                <div class="col-lg-12">
-                        
+                <div class="col-lg-2 col-lg-offset-1 cp4-1 cp-height">
+                    <p>#000000</p>
                 </div>
-            </div>
-            <div class="row"> <!--color palette 5-->
-                <div class="col-lg-12">
-                        
+                <div class="col-lg-2 cp4-2 cp-height">
+                    <p>#000000</p>
                 </div>
-            </div>
-        </div>
+                <div class="col-lg-2 cp4-3 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp4-4 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp4-5 cp-height">
+                    <p>#000000</p>
+                </div>
+            </div> 
+            <div class="row mg-bottom4"> <!--color palette 5-->
+                <div class="col-lg-2 col-lg-offset-1 cp5-1 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp5-2 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp5-3 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp5-4 cp-height">
+                    <p>#000000</p>
+                </div>
+                <div class="col-lg-2 cp5-5 cp-height">
+                    <p>#000000</p>
+                </div>
+            </div> 
+        </div> 
     </section> <!--termina seccion color palette-->
     <div class="container-fluid bg-blue">
         <section> <!--inicia seccion about us-->
             <div class="container">
                 <div class="row tx-black">
-                    <div class="col-lg-12">
+                    <div class="col-xs-12 col-xs-12 col-lg-12">
                         <h2 class="mg-top4 mg-bottom4 text-center fa-3x">About Us</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="row mg-bottom15">
-                   <div class="col-lg-6 text-left mg-top4">
+                   <div class="col-xs-6 col-md-6 col-lg-6 text-left mg-top4">
                         <p>Donec sed odio dui. Etiam porta es malesuada magna mollis euismod. Nullam id dolor id nibt ultricies vehucula ut id elit. Morbi leo risus, porta ac consecetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consecetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
                         <p>Donec sed odio dui. Etiam porta es malesuada magna mollis euismod. Nullam id dolor id nibt ultricies vehucula ut id elit. Morbi leo risus, porta ac consecetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
                         <div class="progress mg-top4">
@@ -125,7 +188,7 @@
                         </div>
                         <p>Photoshop/Illustrator</p>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-xs-6 col-md-6 col-lg-6">
                         <div class="bgimg-about">
                         </div>
                     </div>
@@ -137,14 +200,14 @@
         <div class="container">
             <section> <!--inicia seccion what we do-->
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-xs-12 col-md-12 col-lg-12 text-center">
                         <h2 class="mg-top4 fa-3x">What we do</h2>
                         <hr>
                         <small> Somos increíblemente cool. Checa nuestros servicios. </small>
                     </div>
                 </div>
                 <div class="row mg-top4 text-center">
-                    <div class="col-lg-4">
+                    <div class="col-xs-4 col-md-4 col-lg-4">
                         <img src="img/icons/webdesign.png" alt="laptop" class="animated infinite tada">
                         <a href="">
                         <h3>Web  Design</h3>
@@ -152,14 +215,14 @@
                         <p class="mg-top4">Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Optio iure illo praesentium earum officiis <br> laborum temporibus.</p>
                         
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-xs-4 col-md-4 col-lg-4">
                         <img src="img/icons/graphicdesign.png" alt="fotos" class="animated infinite tada">
                         <a href="">
                         <h3>Web Design</h3>
                         </a>
                         <p class="mg-top4">Lorem ipsum dolor sit amet,consectetur adipisicing <br> elit. Optio iure illo praesentium earum officiis <br> laborum temporibus.</p>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-xs-4 col-md-4 col-lg-4">
                         <img src="img/icons/mobile.png" alt="fotos" class="animated infinite tada">
                         <a href="">
                         <h3>Web  Design</h3>
@@ -168,41 +231,41 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 text-center mg-top4">
+                    <div class="col-xs-12 col-md-12 col-lg-12 text-center mg-top4">
                         <button class="buttonblack">HIRE US NOW!</button>
                     </div>
                 </div>
             </section><!--termina seccion what we do-->
             <section><!--inicia seccion our awesome team-->
                 <div class="row"> 
-                    <div class="col-lg-12 mg-top4 text-center">
+                    <div class="col-xs-12 col-md-12 col-lg-12 mg-top4 text-center">
                     <h2 class="fa-3x">Our awesome team</h2>
                     <hr>
                     <small>Te ayudamos a encontrar la solución <br> a tus inquietudes de diseño y desarrollo web</small>
                 </div>
                 <div class="row mg-top4 mg-bottom4 text-center">
-                    <div class="col-lg-3">
+                    <div class="col-xs-3 col-md-3 col-lg-3">
                         <img src="img/team/1.jpg" alt="Jane" class="jane">
                         <h4 class="mg-top4">Jane Doe</h4>
                         <small>CEO/Founder</small>
                         <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Ad <br> voluptas nostrum vel impedit ea <br> distinctio, alias architecto, fugit <br> corporis maiores! Quod error. <br> </p>
                         <!--iconos-->
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-xs-3 col-md-3 col-lg-3">
                         <img src="img/team/1.jpg" alt="Jane" class="jane">
                         <h4 class="mg-top4">Jane Doe</h4>
                         <small>CEO/Founder</small>
                         <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Ad <br> voluptas nostrum vel impedit ea <br> distinctio, alias architecto, fugit <br> corporis maiores! Quod error. <br> </p>
                         <!--iconos-->
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-xs-3 col-md-3 col-lg-3">
                         <img src="img/team/1.jpg" alt="Jane" class="jane">
                         <h4 class="mg-top4">Jane Doe</h4>
                         <small>CEO/Founder</small>
                         <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Ad <br> voluptas nostrum vel impedit ea <br> distinctio, alias architecto, fugit <br> corporis maiores! Quod error. <br> </p>
                         <!--iconos-->
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-xs-3 col-md-3 col-lg-3">
                         <img src="img/team/1.jpg" alt="Jane" class="jane">
                         <h4 class="mg-top4">Jane Doe</h4>
                         <small>CEO/Founder</small>
@@ -217,62 +280,62 @@
         <div class="container">
             <section>
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-xs-12 col-md-12 col-lg-12 text-center">
                         <h2 class="mg-top4 fa-3x">Best price guaranteed</h2>
                         <hr>
                         <small></small>
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-lg-3 border-green">
+                    <div class="col-xs-3 col-md-3 col-lg-3 border-green">
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p class="fa-2x">Starter</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p class="fa-3x">$10/MO</p>
                                 <small class="bg-green">1 month free trial</small>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>2 GB Disk Space</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>10 GB Bandwidth</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>1 Databases</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>Daily backup</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>1 Domain</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>2 GB Disk Space</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <button class="buttonblack mg-bottom4">Sign Up</button>
                             </div>
                         </div>
                     </div>  
-                    <div class="col-lg-3 border-green mg-top4">
+                    <div class="col-xs-3 col-md-3 col-lg-3 border-green mg-top4">
                         <div class="row bg-cafe">
                             <div class="col-lg-12">
                                 <p class="fa-2x">Basic</p>
@@ -285,133 +348,133 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>2 GB Disk Space</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>10 GB Bandwidth</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>1 Databases</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>Daily backup</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>1 Domain</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>2 GB Disk Space</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <button class="buttonblack mg-bottom4">Sign Up</button>
                             </div>
                         </div>
                     </div>  
-                    <div class="col-lg-3 border-green">
+                    <div class="col-xs-3 col-md-3 col-lg-3 border-green">
                         <div class="row bg-cafe">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p class="fa-2x">Feature</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p class="fa-3x">$10/MO</p>
                                 <small class="bg-green">1 month free trial</small>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>2 GB Disk Space</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>10 GB Bandwidth</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>1 Databases</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>Daily backup</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>1 Domain</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>2 GB Disk Space</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <button class="buttonblack mg-bottom4">Sign Up</button>
                             </div>
                         </div>
                     </div>  
-                    <div class="col-lg-3 border-green mg-top4">
+                    <div class="col-xs-3 col-md-3 col-lg-3 border-green mg-top4">
                         <div class="row bg-cafe">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p class="fa-2x">Professional</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p class="fa-3x">$10/MO</p>
                                 <small class="bg-green">1 month free trial</small>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>2 GB Disk Space</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>10 GB Bandwidth</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>1 Databases</p>
                             </div>
                         </div>
                         <div class="row bg-green">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>Daily backup</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>1 Domain</p>
                             </div>
                         </div>
                         <div class="row bg-green mg-bottom4">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <p>2 GB Disk Space</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
                                 <button class="buttonblack">Sign Up</button>
                             </div>
                         </div>
@@ -420,7 +483,7 @@
             </section>
             <section> <!--inicia seccion what our clients say-->
                 <div class="row"> 
-                    <div class="col-lg-12 text-center mg-top4">
+                    <div class="col-xs-12 col-md-12 col-lg-12 text-center mg-top4">
                         <h2 class="text-uppercase fa-3x">What our clients say</h2>
                         <hr>
                         <small></small>
@@ -436,7 +499,7 @@
             </section><!--termina seccion what our clients say-->
             <section><!--inicia seccion get in touch-->
                 <div class="row">
-                    <div class="col-lg-12 text-center mg-top4">
+                    <div class="col-xs-12 col-md-12 col-lg-12 text-center mg-top4">
                         <h2 class="text-uppercase fa-3x">Get in touch</h2>
                         <hr>
                         <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </small>
@@ -461,23 +524,23 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2">
+                    <div class="col-xs-2 col-md-2 col-lg-2">
                         <img src="img/social/facebook.png" alt="facebook" class="center-block">
                     </div>
-                    <div class="col-lg-2">
-                        <img src="img/social/twitter.png" alt="twitter" class="center-block">
+                    <div class="col-xs-2 col-md-2 col-lg-2">
+                        <img src="img/social/twitter.png" alt="twitter" class="center-block ">
                     </div>
-                    <div class="col-lg-2">
-                        <img src="img/social/pinterest.png" alt="pinterest" class="center-block">
+                    <div class="col-xs-2 col-md-2 col-lg-2">
+                        <img src="img/social/pinterest.png" alt="pinterest" class="center-block ">
                     </div>
-                    <div class="col-lg-2">
-                        <img src="img/social/google-plus.png" alt="google-plus" class="center-block">
+                    <div class="col-xs-2 col-md-2 col-lg-2">
+                        <img src="img/social/google-plus.png" alt="google-plus" class="center-block ">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-xs-2 col-md-2 col-lg-2">
                         <img src="img/social/tumblr.png" alt="tumblr" class="center-block">
                     </div>
-                    <div class="col-lg-2">
-                        <img src="img/social/instagram.png" alt="instagram" class="center-block">
+                    <div class="col-xs-2 col-md-2 col-lg-2">
+                        <img src="img/social/instagram.png" alt="instagram" class="center-block ">
                     </div>
                 </div>
             </div>
@@ -487,7 +550,7 @@
         <div class="container">
             <footer>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-xs-4 col-md-4 col-lg-4">
                         <h4 class="mg-top4 text-center">Visit us</h4>
                         <hr>
                         <ul class="list-unstyled text-center"> 
@@ -500,7 +563,7 @@
                             <li><i class="fa fa-eye" aria-hidden="true">Deutschland</i></li>
                         </ul>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-xs-4 col-md-4 col-lg-4">
                         <h4 class="mg-top4 text-center">Write us</h4>
                         <hr>
                         <ul class="list-unstyled text-center"> 
@@ -513,7 +576,7 @@
                             <li><i class="fa fa-eye" aria-hidden="true">123456789</i></li>
                         </ul>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-xs-4 col-md-4 col-lg-4">
                         <h4 class="list-unstyled text-center">Newsletter</h4>
                         <hr>
                         <input type="text" name="Nombre" placeholder="Enter email" class="mg-top4 center-block mg-bottom4">
@@ -522,14 +585,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-xs-6 col-md-6 col-lg-6">
                         <ul class="list-unstyled list-inline">
                             <li>2013 threesixty website template</li>
                             <li>Privacy</li>
                             <li>Terms</li>
                         </ul>
                     </div>
-                    <div class="col-lg-6 pull right">
+                    <div class="col-xs-6 col-md-6 col-lg-6 pull right">
                         <p>Back to top</p>
                     </div>
                 </div>
